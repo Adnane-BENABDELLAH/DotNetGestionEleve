@@ -1,0 +1,54 @@
+﻿@model EnsatGestion.Models.Eleve
+
+@{
+    ViewData["Title"] = "DetailsEleve";
+}
+
+<h1>DetailsEleve</h1>
+
+<div>
+    <h4>Eleve</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cne)
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.Eleve
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.prenom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.prenom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.filiere)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.filiere)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tel)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
