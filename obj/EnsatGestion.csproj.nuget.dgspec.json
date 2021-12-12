@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Web Service Projects\\EnsatGestion\\EnsatGestion.csproj": {}
+    "C:\\Users\\Latitude\\source\\repos\\Adnane-BENABDELLAH\\DotNetGestionEleve\\EnsatGestion.csproj": {}
   },
   "projects": {
-    "D:\\Web Service Projects\\EnsatGestion\\EnsatGestion.csproj": {
+    "C:\\Users\\Latitude\\source\\repos\\Adnane-BENABDELLAH\\DotNetGestionEleve\\EnsatGestion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web Service Projects\\EnsatGestion\\EnsatGestion.csproj",
+        "projectUniqueName": "C:\\Users\\Latitude\\source\\repos\\Adnane-BENABDELLAH\\DotNetGestionEleve\\EnsatGestion.csproj",
         "projectName": "EnsatGestion",
-        "projectPath": "D:\\Web Service Projects\\EnsatGestion\\EnsatGestion.csproj",
-        "packagesPath": "C:\\Users\\Acer Aspire\\.nuget\\packages\\",
-        "outputPath": "D:\\Web Service Projects\\EnsatGestion\\obj\\",
+        "projectPath": "C:\\Users\\Latitude\\source\\repos\\Adnane-BENABDELLAH\\DotNetGestionEleve\\EnsatGestion.csproj",
+        "packagesPath": "C:\\Users\\Latitude\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Latitude\\source\\repos\\Adnane-BENABDELLAH\\DotNetGestionEleve\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Acer Aspire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Latitude\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,24 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -83,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
